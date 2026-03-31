@@ -10,8 +10,8 @@ Alternatively, submit problems via the form at [polya.live/contribute](https://p
 
 | File | Format |
 |---|---|
-| `problem.tex` | LaTeX |
-| `problem.typ` | Typst |
+| `polya_problem_sheet.tex` | LaTeX |
+| `polya_problem_sheet.typ` | Typst |
 
 ---
 
@@ -22,30 +22,36 @@ Coming soon.
 ---
 
 ## Required Variables
-
-Every problem must define these. The script will reject the file if any required field is missing or uses an invalid value.
-
+ 
+### Polya problem sheet
+Defined once per file.
+ 
+| Variable | Required | Valid Values |
+|---|---|---|
+| `subject` | ✓ | `mathematics`, `physics` |
+| `topic` | ✓ | e.g. `calculus`, `mechanics` |
+| `subtopic` | ✓ | e.g. `calculus 1`, `linear motion` |
+| `contributors` | ✓ | Array of Polya usernames, e.g. `[brsl, bendeguz06]` |
+ 
+### Polya problem
+Defined for every problem in the sheet.
+ 
 | Variable | Required | Valid Values |
 |---|---|---|
 | `title` | ✓ | Any string |
-| `subject` | ✓ | `mathematics`, `physics` |
-| `topic` | ✓ | e.g. `calculus`, `mechanics` |
-| `subtopic` | ✓ | e.g. `calculus-1`, `linear-motion` |
-| `difficulty` | ✓ | `easy`, `medium`, `hard`, `ipho` / `imo` |
+| `difficulty` | ✓ | `easy`, `medium`, `hard`, `ipho`, `imo` |
 | `points` | ✓ | `80`, `150`, `250`, `400` |
 | `statement` | ✓ | Math markup string |
 | `answer` | ✓ | Exact number or expression |
 | `solution` | ✓ | Full worked out solution |
-| `hint` | — | Optional statement |
 | `source` | — | Competition or textbook citation |
-
+ 
 ---
-
 ## Difficulty Guide
 
 | Level | Description | Points |
 |---|---|---|
-| `easy` | direct application | 80 |
+| `easy` | Direct application | 80 |
 | `medium` | Two or more concepts combined | 150 |
 | `hard` | Non-obvious, competition-level | 250 |
 | `ipho` / `imo` | IPhO / IMO difficulty | 400 |
