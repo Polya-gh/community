@@ -3,9 +3,6 @@
 #let topic = "calculus"
 #let subtopic = "Calculus 1"
 #let contributors = ("brsl", "davidr", "beta_tester", "b_udd_ha")
-
-
-
 #let problems = (
   (
     title: "Area under a curve ",
