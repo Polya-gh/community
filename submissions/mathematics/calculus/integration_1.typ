@@ -20,7 +20,7 @@
 )
 
 #set page(margin: 2.5cm)
-#set text(font: "Noto Serif", size: 11pt)
+#set text(font: "New Computer Modern", size: 11pt)
 #set par(justify: true)
 
 #align(center)[
@@ -28,7 +28,7 @@
   #v(0.3em)
   #v(0.5em)
   #grid(
-    columns: contributors.map(_ => 1fr),
+    columns: (1fr,) * contributors.len(),
     ..contributors.map(c => align(center, text(size: 9pt)[u/#c]))
   )
 ]
