@@ -69,8 +69,10 @@
   #v(0.3em)
   #v(0.5em)
   #grid(
-    columns: (1fr,) * contributors.len(),
-    ..contributors.map(c => align(center, text(size: 9pt)[u/#c]))
+    columns: contributors.len() * (1fr,),
+    ..for c in contributors {
+      (align(center, text(size: 9pt)[u/#c]),)
+    }
   )
 ]
 
