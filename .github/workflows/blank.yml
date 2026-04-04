@@ -1,0 +1,19 @@
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'submissions/**/*.typ'
+
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: typst-community/setup-typst@v3
+      - run: |
+          find submissions -name "*.typ" | while read f; do
+            typst compile "$f" "${f%.typ}.pdf"
+          done
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "compile PDFs"
