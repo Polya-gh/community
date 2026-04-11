@@ -1,4 +1,8 @@
 #let n = 2
+
+
+
+
 #let subject = "mathematics"
 #let topic = "algebra"
 #let subtopic = "Algebra 1"
