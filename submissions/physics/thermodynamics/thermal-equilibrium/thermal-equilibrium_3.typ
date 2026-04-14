@@ -9,7 +9,7 @@
     title: "Two rods",
     difficulty: "medium",
     statement: [
-      Two rods, one copper ($k_1 = 400$ W m$^(-1)$ K$^(-1)$) and one iron ($k_2 = 80$ W m$^(-1)$ K$^(-1)$), have equal length and area. They are placed in parallel between a $100°C$ and $0°C$ reservoir. Find the ratio of heat conducted by copper to iron.
+      Two rods, one copper ($k_1 = 400 "W" dot "m"^(-1) dot "K"^(-1)$) and one iron ($k_2 = 80 "W" dot "m"^(-1) dot "K"^(-1)$), have equal length and area. They are placed in parallel between a $100 degree.c$ and $0 degree.c$ reservoir. Find the ratio of heat conducted by copper to iron.
     ],
     answer: $5$,
     solution: [
