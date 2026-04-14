@@ -6,20 +6,6 @@
 
 #let problems = (
   (
-    title: "Matrix product",
-    difficulty: "medium",
-    statement: [
-      Compute $mat(1, 2; 3, 0) dot mat(0, 1; 4, -1)$.
-    ],
-    answer: $mat(8, -1; 0, 3)$,
-    solution: [
-      Row 1 × Col 1: $1 dot 0 + 2 dot 4 = 8$. Row 1 × Col 2: $1 dot 1 + 2 dot (-1) = -1$. \
-      Row 2 × Col 1: $3 dot 0 + 0 dot 4 = 0$. Row 2 × Col 2: $3 dot 1 + 0 dot (-1) = 3$. \
-      Result: $mat(8, -1; 0, 3)$.
-    ],
-    source: "",
-  ),
-  (
     title: "Polar form",
     difficulty: "medium",
     statement: [

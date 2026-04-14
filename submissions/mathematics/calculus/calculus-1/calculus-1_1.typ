@@ -6,18 +6,6 @@
 
 #let problems = (
   (
-    title: "Area under a curve ",
-    difficulty: "easy",
-    statement: [
-      Let $f(x) = x^2$. Find the area under the curve from $x = 0$ to $x = 3$.
-    ],
-    answer: "9",
-    solution: [
-      $integral_0^3 x^2 dif x = [x^3/3]_0^3 = 27/3 - 0 = 9$
-    ],
-    source: "",
-  ),
-  (
     title: "Tangent line ",
     difficulty: "medium",
     statement: [

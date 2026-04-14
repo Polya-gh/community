@@ -1,43 +1,20 @@
-#let n = 1
-#let subject = "mathematics"
-#let topic = "vector analysis"
-#let subtopic = "Vector Analysis"
+#let n = 3
+#let subject = "physics"
+#let topic = "optics"
+#let subtopic = "Geometric Optics"
 #let contributors = ("brsl", "davidr", "beta_tester", "b_udd_ha")
 
 #let problems = (
   (
-    title: "Magnitude",
-    difficulty: "easy",
-    statement: [
-      Find the magnitude of the vector $bold(v) = (3, -4, 0)$.
-    ],
-    answer: $5$,
-    solution: [
-      $|bold(v)| = sqrt(3^2 + (-4)^2 + 0^2) = sqrt(9 + 16) = 5$
-    ],
-    source: "",
-  ),
-  (
-    title: "Dot product",
-    difficulty: "easy",
-    statement: [
-      Compute $bold(a) dot bold(b)$ where $bold(a) = (2, -1, 3)$ and $bold(b) = (4, 0, -2)$.
-    ],
-    answer: $2$,
-    solution: [
-      $bold(a) dot bold(b) = 2(4) + (-1)(0) + 3(-2) = 8 + 0 - 6 = 2$
-    ],
-    source: "",
-  ),
-  (
-    title: "Projection",
+    title: "Angular size",
     difficulty: "medium",
     statement: [
-      Find the scalar projection of $bold(a) = (3, 4)$ onto $bold(b) = (1, 0)$.
+      An object $2$ cm tall is placed $40$ cm from a lens of focal length $8$ cm. Find the angular magnification compared to the near point ($D = 25$ cm).
     ],
-    answer: $3$,
+    answer: $approx 3.1$,
     solution: [
-      $"proj" = (bold(a) dot bold(b))/(|bold(b)|) = (3 dot 1 + 4 dot 0)/(1) = 3$
+      $M = (D)/(f) + 1 = (25)/(8) + 1 = 3.125 + 1... $ \
+      Simple magnifier at near point: $M = (D)/(f) = (25)/(8) approx 3.1$.
     ],
     source: "",
   ),

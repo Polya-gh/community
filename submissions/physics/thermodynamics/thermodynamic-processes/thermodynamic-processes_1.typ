@@ -1,43 +1,31 @@
 #let n = 1
-#let subject = "mathematics"
-#let topic = "vector analysis"
-#let subtopic = "Vector Analysis"
+#let subject = "physics"
+#let topic = "thermodynamics"
+#let subtopic = "Thermodynamic Processes"
 #let contributors = ("brsl", "davidr", "beta_tester", "b_udd_ha")
 
 #let problems = (
   (
-    title: "Magnitude",
-    difficulty: "easy",
-    statement: [
-      Find the magnitude of the vector $bold(v) = (3, -4, 0)$.
-    ],
-    answer: $5$,
-    solution: [
-      $|bold(v)| = sqrt(3^2 + (-4)^2 + 0^2) = sqrt(9 + 16) = 5$
-    ],
-    source: "",
-  ),
-  (
-    title: "Dot product",
-    difficulty: "easy",
-    statement: [
-      Compute $bold(a) dot bold(b)$ where $bold(a) = (2, -1, 3)$ and $bold(b) = (4, 0, -2)$.
-    ],
-    answer: $2$,
-    solution: [
-      $bold(a) dot bold(b) = 2(4) + (-1)(0) + 3(-2) = 8 + 0 - 6 = 2$
-    ],
-    source: "",
-  ),
-  (
-    title: "Projection",
+    title: "Isothermal",
     difficulty: "medium",
     statement: [
-      Find the scalar projection of $bold(a) = (3, 4)$ onto $bold(b) = (1, 0)$.
+      An ideal gas expands isothermally. During this process, what happens to the internal energy?
     ],
-    answer: $3$,
+    answer: $Delta U = 0$,
     solution: [
-      $"proj" = (bold(a) dot bold(b))/(|bold(b)|) = (3 dot 1 + 4 dot 0)/(1) = 3$
+      For an ideal gas, internal energy depends only on temperature. In an isothermal process $Delta T = 0$, so $Delta U = 0$.
+    ],
+    source: "",
+  ),
+  (
+    title: "Isochoric",
+    difficulty: "easy",
+    statement: [
+      In an isochoric (constant volume) process, how much work is done by the gas?
+    ],
+    answer: $W = 0$,
+    solution: [
+      Work done by a gas is $W = P Delta V$. At constant volume, $Delta V = 0$, so $W = 0$.
     ],
     source: "",
   ),

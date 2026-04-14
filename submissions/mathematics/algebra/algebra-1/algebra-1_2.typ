@@ -63,31 +63,6 @@
     source: "",
   ),
   (
-    title: "Y-intercept",
-    difficulty: "easy",
-    statement: [
-      What is the $y$-intercept of the line $y = -3x + 7$?
-    ],
-    answer: $(0, 7)$,
-    solution: [
-      Setting $x = 0$: $y = 7$. The $y$-intercept is $(0, 7)$.
-    ],
-    source: "",
-  ),
-  (
-    title: "Quadratic formula",
-    difficulty: "medium",
-    statement: [
-      Solve $2x^2 - 5x - 3 = 0$ using the quadratic formula.
-    ],
-    answer: $x = 3 "or" x = -1/2$,
-    solution: [
-      $x = {5 plus.minus sqrt{25 + 24}}/{4} = {5 plus.minus 7}/{4}$ \
-      $x = 3$ or $x = -1/2$
-    ],
-    source: "",
-  ),
-  (
     title: "Absolute value equation",
     difficulty: "medium",
     statement: [

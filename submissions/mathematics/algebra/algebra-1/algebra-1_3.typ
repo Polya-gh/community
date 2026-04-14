@@ -94,19 +94,6 @@
     source: "",
   ),
   (
-    title: "Inequality",
-    difficulty: "medium",
-    statement: [
-      Solve: $-3x + 6 >= 0$.
-    ],
-    answer: $x <= 2$,
-    solution: [
-      $-3x >= -6$ \
-      Dividing by $-3$ (flip the inequality): $x <= 2$.
-    ],
-    source: "",
-  ),
-  (
     title: "Simplification",
     difficulty: "medium",
     statement: [
@@ -115,20 +102,6 @@
     answer: $x - 3$,
     solution: [
       $((x-3)(x+3))/(x+3) = x - 3$
-    ],
-    source: "",
-  ),
-  (
-    title: "Mixture",
-    difficulty: "medium",
-    statement: [
-      A chemist mixes 20 mL of a 30% acid solution with 30 mL of a 50% acid solution. What is the concentration of the resulting mixture?
-    ],
-    answer: $42%$,
-    solution: [
-      Total acid: $0.30 dot 20 + 0.50 dot 30 = 6 + 15 = 21$ mL. \
-      Total volume: $50$ mL. \
-      Concentration: $(21)/(50) = 0.42 = 42%$.
     ],
     source: "",
   ),

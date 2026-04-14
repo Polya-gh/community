@@ -6,19 +6,6 @@
 
 #let problems = (
   (
-    title: "Gradient",
-    difficulty: "medium",
-    statement: [
-      Find the gradient of $f(x, y, z) = x^2 y + y z^2$ at the point $(1, 2, 1)$.
-    ],
-    answer: $(4, 2, 4)$,
-    solution: [
-      $nabla f = (2x y, x^2 + z^2, 2y z)$. \
-      At $(1, 2, 1)$: $(2 dot 1 dot 2, 1 + 1, 2 dot 2 dot 1) = (4, 2, 4)$.
-    ],
-    source: "",
-  ),
-  (
     title: "Divergence",
     difficulty: "medium",
     statement: [
@@ -27,18 +14,6 @@
     answer: $2x + 2y + 2z$,
     solution: [
       $nabla dot bold(F) = (diff F_1)/(diff x) + (diff F_2)/(diff y) + (diff F_3)/(diff z) = 2x + 2y + 2z$
-    ],
-    source: "",
-  ),
-  (
-    title: "Subtraction",
-    difficulty: "easy",
-    statement: [
-      Let $bold(p) = (5, 1, -2)$ and $bold(q) = (3, -1, 2)$. Find $bold(p) - bold(q)$.
-    ],
-    answer: $(2, 2, -4)$,
-    solution: [
-      $bold(p) - bold(q) = (5-3, 1-(-1), -2-2) = (2, 2, -4)$
     ],
     source: "",
   ),
@@ -81,19 +56,6 @@
     source: "",
   ),
   (
-    title: "Curl",
-    difficulty: "medium",
-    statement: [
-      Find the curl of $bold(F) = (y, -x, 0)$.
-    ],
-    answer: $(0, 0, -2)$,
-    solution: [
-      $nabla times bold(F) = det mat(bold(i), bold(j), bold(k); diff_x, diff_y, diff_z; y, -x, 0)$ \
-      $= bold(i)(0 - 0) - bold(j)(0 - 0) + bold(k)(-1 - 1) = (0, 0, -2)$
-    ],
-    source: "",
-  ),
-  (
     title: "Perpendicular",
     difficulty: "easy",
     statement: [
@@ -103,19 +65,6 @@
     solution: [
       $bold(a) dot bold(b) = 1(1) + (-1)(1) + 0(0) = 1 - 1 = 0$. \
       Since the dot product is zero, the vectors are perpendicular.
-    ],
-    source: "",
-  ),
-  (
-    title: "Line form",
-    difficulty: "medium",
-    statement: [
-      Write the vector equation of the line through $A(1, 2, 3)$ in direction $bold(d) = (1, -1, 2)$.
-    ],
-    answer: $bold(r) = (1,2,3) + t(1,-1,2)$,
-    solution: [
-      $bold(r) = bold(a) + t bold(d)$, so: \
-      $bold(r) = (1, 2, 3) + t(1, -1, 2)$, $t in RR$.
     ],
     source: "",
   ),

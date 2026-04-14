@@ -57,19 +57,6 @@
     source: "",
   ),
   (
-    title: "Domain",
-    difficulty: "easy",
-    statement: [
-      Find the domain of $f(x) = 1/(x^2 - 4)$.
-    ],
-    answer: $x != plus.minus 2$,
-    solution: [
-      The denominator is zero when $x^2 - 4 = 0$, i.e., $x = plus.minus 2$. \
-      Domain: $RR without {-2, 2}$.
-    ],
-    source: "",
-  ),
-  (
     title: "Binomial",
     difficulty: "medium",
     statement: [

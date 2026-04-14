@@ -83,18 +83,6 @@
     source: "",
   ),
   (
-    title: "Matrices",
-    difficulty: "easy",
-    statement: [
-      Compute $mat(1, 2; 3, 4) + mat(5, -1; 0, 2)$.
-    ],
-    answer: $mat(6, 1; 3, 6)$,
-    solution: [
-      Add element-wise: $mat(1+5, 2-1; 3+0, 4+2) = mat(6, 1; 3, 6)$.
-    ],
-    source: "",
-  ),
-  (
     title: "Discriminant",
     difficulty: "medium",
     statement: [

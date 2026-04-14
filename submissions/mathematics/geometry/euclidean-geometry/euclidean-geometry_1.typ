@@ -6,19 +6,6 @@
 
 #let problems = (
   (
-    title: "Triangle angles",
-    difficulty: "easy",
-    statement: [
-      A triangle has angles $50°$ and $70°$. What is the third angle?
-    ],
-    answer: $60°$,
-    solution: [
-      Sum of angles in a triangle is $180°$. \
-      Third angle $= 180° - 50° - 70° = 60°$.
-    ],
-    source: "",
-  ),
-  (
     title: "Perimeter",
     difficulty: "easy",
     statement: [
@@ -55,31 +42,6 @@
     source: "",
   ),
   (
-    title: "Congruence",
-    difficulty: "medium",
-    statement: [
-      Two triangles have two sides of lengths $5$ and $7$, with an included angle of $60°$ each. Are the triangles congruent? State the criterion used.
-    ],
-    answer: $"SAS"$,
-    solution: [
-      Two sides and the included angle are equal, so the triangles are congruent by the SAS (Side-Angle-Side) criterion.
-    ],
-    source: "",
-  ),
-  (
-    title: "Exterior angle",
-    difficulty: "medium",
-    statement: [
-      An exterior angle of a triangle measures $120°$. One of the non-adjacent interior angles is $45°$. Find the other non-adjacent interior angle.
-    ],
-    answer: $75°$,
-    solution: [
-      By the exterior angle theorem, the exterior angle equals the sum of the two non-adjacent interior angles. \
-      $45° + x = 120° => x = 75°$.
-    ],
-    source: "",
-  ),
-  (
     title: "Similar triangles",
     difficulty: "medium",
     statement: [
@@ -88,19 +50,6 @@
     answer: $15$,
     solution: [
       $(6)/(x) = (2)/(5) => x = (6 dot 5)/(2) = 15$.
-    ],
-    source: "",
-  ),
-  (
-    title: "Straight line",
-    difficulty: "easy",
-    statement: [
-      Two angles on a straight line are in the ratio $1:3$. Find the larger angle.
-    ],
-    answer: $135°$,
-    solution: [
-      Let the angles be $x$ and $3x$. $x + 3x = 180° => x = 45°$. \
-      The larger angle is $3 dot 45° = 135°$.
     ],
     source: "",
   ),

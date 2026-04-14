@@ -6,30 +6,6 @@
 
 #let problems = (
   (
-    title: "Point on circle",
-    difficulty: "easy",
-    statement: [
-      Does the point $(3, 4)$ lie on the circle $x^2 + y^2 = 25$?
-    ],
-    answer: $"Yes"$,
-    solution: [
-      $3^2 + 4^2 = 9 + 16 = 25$. The equation is satisfied.
-    ],
-    source: "",
-  ),
-  (
-    title: "Section formula",
-    difficulty: "medium",
-    statement: [
-      Point $P$ divides segment $A(2, 3)$ to $B(8, 9)$ in the ratio $1:2$. Find $P$.
-    ],
-    answer: $(4, 5)$,
-    solution: [
-      $P = ((1 dot 8 + 2 dot 2)/(3), (1 dot 9 + 2 dot 3)/(3)) = ((12)/(3), (15)/(3)) = (4, 5)$.
-    ],
-    source: "",
-  ),
-  (
     title: "Locus",
     difficulty: "medium",
     statement: [
@@ -58,18 +34,6 @@
     source: "",
   ),
   (
-    title: "Translation",
-    difficulty: "easy",
-    statement: [
-      A point $P(2, -3)$ is translated by the vector $(4, 5)$. Find the image.
-    ],
-    answer: $(6, 2)$,
-    solution: [
-      $P' = (2 + 4, -3 + 5) = (6, 2)$.
-    ],
-    source: "",
-  ),
-  (
     title: "x-intercepts",
     difficulty: "medium",
     statement: [
@@ -93,19 +57,6 @@
       Substituting and requiring discriminant $= 0$: \
       $5x^2 + 4c x + c^2 - 5 = 0$. \
       $(4c)^2 - 4 dot 5(c^2 - 5) = 0 => -4c^2 + 100 = 0 => c = plus.minus 5$.
-    ],
-    source: "",
-  ),
-  (
-    title: "Rotation",
-    difficulty: "easy",
-    statement: [
-      A point $P(3, 1)$ is rotated $90°$ anticlockwise about the origin. Find the image.
-    ],
-    answer: $(-1, 3)$,
-    solution: [
-      Under a $90°$ anticlockwise rotation: $(x, y) -> (-y, x)$. \
-      $P' = (-1, 3)$.
     ],
     source: "",
   ),

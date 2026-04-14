@@ -85,33 +85,6 @@
     source: "",
   ),
   (
-    title: "Decomposition",
-    difficulty: "easy",
-    statement: [
-      Decompose $bold(v) = (3, 4)$ into components parallel and perpendicular to $bold(u) = (1, 0)$.
-    ],
-    answer: $bold(v)_parallel = (3,0)$,
-    solution: [
-      $bold(v)_parallel = (bold(v) dot hat(bold(u))) hat(bold(u)) = 3(1,0) = (3,0)$. \
-      $bold(v)_perp = bold(v) - bold(v)_parallel = (0, 4)$.
-    ],
-    source: "",
-  ),
-  (
-    title: "Conservative",
-    difficulty: "medium",
-    statement: [
-      Is $bold(F) = (2x y, x^2 + 1)$ a conservative vector field in $RR^2$?
-    ],
-    answer: $"Yes"$,
-    solution: [
-      Check $(diff F_1)/(diff y) = (diff F_2)/(diff x)$: \
-      $(diff (2x y))/(diff y) = 2x$ and $(diff (x^2+1))/(diff x) = 2x$. \
-      They are equal, so $bold(F)$ is conservative.
-    ],
-    source: "",
-  ),
-  (
     title: "Work",
     difficulty: "easy",
     statement: [

@@ -18,18 +18,6 @@
     source: "",
   ),
   (
-    title: "Midpoint",
-    difficulty: "easy",
-    statement: [
-      Find the midpoint of the segment joining $P(-2, 4)$ and $Q(6, 0)$.
-    ],
-    answer: $(2, 2)$,
-    solution: [
-      Midpoint $= ((-2+6)/(2), (4+0)/(2)) = (2, 2)$.
-    ],
-    source: "",
-  ),
-  (
     title: "Line equation",
     difficulty: "easy",
     statement: [
@@ -55,30 +43,6 @@
     source: "",
   ),
   (
-    title: "Parallel lines",
-    difficulty: "easy",
-    statement: [
-      Are the lines $y = 3x + 1$ and $y = 3x - 5$ parallel? Explain.
-    ],
-    answer: $"Yes"$,
-    solution: [
-      Both lines have slope $3$ and different $y$-intercepts, so they are parallel.
-    ],
-    source: "",
-  ),
-  (
-    title: "Intersection",
-    difficulty: "medium",
-    statement: [
-      Find the intersection of $y = 2x + 1$ and $y = -x + 7$.
-    ],
-    answer: $(2, 5)$,
-    solution: [
-      $2x + 1 = -x + 7 => 3x = 6 => x = 2$. $y = 2(2) + 1 = 5$. Point: $(2, 5)$.
-    ],
-    source: "",
-  ),
-  (
     title: "Perpendicular",
     difficulty: "medium",
     statement: [
@@ -88,19 +52,6 @@
     solution: [
       Perpendicular slope: $m = -(1)/(3)$. \
       $y = -(1)/(3)x + 1$.
-    ],
-    source: "",
-  ),
-  (
-    title: "Vertex",
-    difficulty: "medium",
-    statement: [
-      Find the vertex of the parabola $y = x^2 - 4x + 7$.
-    ],
-    answer: $(2, 3)$,
-    solution: [
-      Complete the square: $y = (x-2)^2 - 4 + 7 = (x-2)^2 + 3$. \
-      Vertex: $(2, 3)$.
     ],
     source: "",
   ),

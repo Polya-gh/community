@@ -1,43 +1,43 @@
-#let n = 1
-#let subject = "mathematics"
-#let topic = "vector analysis"
-#let subtopic = "Vector Analysis"
+#let n = 3
+#let subject = "physics"
+#let topic = "thermodynamics"
+#let subtopic = "Thermodynamic Processes"
 #let contributors = ("brsl", "davidr", "beta_tester", "b_udd_ha")
 
 #let problems = (
   (
-    title: "Magnitude",
+    title: "Free expansion",
     difficulty: "easy",
     statement: [
-      Find the magnitude of the vector $bold(v) = (3, -4, 0)$.
+      An ideal gas undergoes free expansion into a vacuum. What is the work done and the change in internal energy?
     ],
-    answer: $5$,
+    answer: $W = 0$,
     solution: [
-      $|bold(v)| = sqrt(3^2 + (-4)^2 + 0^2) = sqrt(9 + 16) = 5$
+      In free expansion into vacuum, $P_"ext" = 0$ so $W = 0$. No heat is exchanged ($Q = 0$). By first law: $Delta U = 0$.
     ],
     source: "",
   ),
   (
-    title: "Dot product",
-    difficulty: "easy",
-    statement: [
-      Compute $bold(a) dot bold(b)$ where $bold(a) = (2, -1, 3)$ and $bold(b) = (4, 0, -2)$.
-    ],
-    answer: $2$,
-    solution: [
-      $bold(a) dot bold(b) = 2(4) + (-1)(0) + 3(-2) = 8 + 0 - 6 = 2$
-    ],
-    source: "",
-  ),
-  (
-    title: "Projection",
+    title: "Refrigerator",
     difficulty: "medium",
     statement: [
-      Find the scalar projection of $bold(a) = (3, 4)$ onto $bold(b) = (1, 0)$.
+      A refrigerator operates between $270$ K and $300$ K. What is the maximum COP?
     ],
-    answer: $3$,
+    answer: $9$,
     solution: [
-      $"proj" = (bold(a) dot bold(b))/(|bold(b)|) = (3 dot 1 + 4 dot 0)/(1) = 3$
+      $"COP"_"max" = (T_C)/(T_H - T_C) = (270)/(300 - 270) = (270)/(30) = 9$.
+    ],
+    source: "",
+  ),
+  (
+    title: "Reversible",
+    difficulty: "easy",
+    statement: [
+      What is the entropy change of the universe in a perfectly reversible process?
+    ],
+    answer: $Delta S = 0$,
+    solution: [
+      In a reversible process, the total entropy change of the universe is zero: $Delta S_"universe" = 0$.
     ],
     source: "",
   ),

@@ -1,43 +1,20 @@
-#let n = 1
-#let subject = "mathematics"
-#let topic = "vector analysis"
-#let subtopic = "Vector Analysis"
+#let n = 2
+#let subject = "physics"
+#let topic = "thermodynamics"
+#let subtopic = "Thermal Equilibrium"
 #let contributors = ("brsl", "davidr", "beta_tester", "b_udd_ha")
 
 #let problems = (
   (
-    title: "Magnitude",
+    title: "Radiation",
     difficulty: "easy",
     statement: [
-      Find the magnitude of the vector $bold(v) = (3, -4, 0)$.
+      A blackbody at temperature $T$ radiates power $P$. If $T$ is doubled, what is the new radiated power?
     ],
-    answer: $5$,
+    answer: $16 P$,
     solution: [
-      $|bold(v)| = sqrt(3^2 + (-4)^2 + 0^2) = sqrt(9 + 16) = 5$
-    ],
-    source: "",
-  ),
-  (
-    title: "Dot product",
-    difficulty: "easy",
-    statement: [
-      Compute $bold(a) dot bold(b)$ where $bold(a) = (2, -1, 3)$ and $bold(b) = (4, 0, -2)$.
-    ],
-    answer: $2$,
-    solution: [
-      $bold(a) dot bold(b) = 2(4) + (-1)(0) + 3(-2) = 8 + 0 - 6 = 2$
-    ],
-    source: "",
-  ),
-  (
-    title: "Projection",
-    difficulty: "medium",
-    statement: [
-      Find the scalar projection of $bold(a) = (3, 4)$ onto $bold(b) = (1, 0)$.
-    ],
-    answer: $3$,
-    solution: [
-      $"proj" = (bold(a) dot bold(b))/(|bold(b)|) = (3 dot 1 + 4 dot 0)/(1) = 3$
+      By Stefan-Boltzmann law, $P propto T^4$. \
+      $(T')^4 = (2T)^4 = 16 T^4$, so the new power is $16 P$.
     ],
     source: "",
   ),

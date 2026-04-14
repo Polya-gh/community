@@ -18,30 +18,6 @@
     source: "",
   ),
   (
-    title: "Polygon angles",
-    difficulty: "easy",
-    statement: [
-      Find the sum of interior angles of a hexagon.
-    ],
-    answer: $720°$,
-    solution: [
-      Sum $= (n - 2) dot 180° = 4 dot 180° = 720°$.
-    ],
-    source: "",
-  ),
-  (
-    title: "Isosceles",
-    difficulty: "easy",
-    statement: [
-      An isosceles triangle has a vertex angle of $40°$. Find the base angles.
-    ],
-    answer: $70°$,
-    solution: [
-      The two base angles are equal. $2x + 40° = 180° => x = 70°$.
-    ],
-    source: "",
-  ),
-  (
     title: "Tangent length",
     difficulty: "medium",
     statement: [
@@ -80,18 +56,6 @@
     source: "",
   ),
   (
-    title: "Alternate angles",
-    difficulty: "easy",
-    statement: [
-      Two parallel lines are cut by a transversal. One alternate interior angle is $65°$. What is the other?
-    ],
-    answer: $65°$,
-    solution: [
-      Alternate interior angles are equal when lines are parallel. The other angle is also $65°$.
-    ],
-    source: "",
-  ),
-  (
     title: "Circumference",
     difficulty: "easy",
     statement: [
@@ -112,20 +76,6 @@
     answer: $90 pi$,
     solution: [
       $V = pi r^2 h = pi dot 9 dot 10 = 90 pi$ cm³.
-    ],
-    source: "",
-  ),
-  (
-    title: "Semicircle angle",
-    difficulty: "medium",
-    statement: [
-      $A B$ is a diameter of a circle with centre $O$. Point $C$ lies on the circle. What is $angle A C B$?
-    ],
-    answer: $90°$,
-    solution: [
-      Let $angle O A C = angle O C A = alpha$ and $angle O C B = angle O B C = beta$ (isosceles triangles). \
-      In triangle $A B C$: $alpha + (alpha + beta) + beta = 180° => 2(alpha + beta) = 180°$. \
-      So $angle A C B = alpha + beta = 90°$.
     ],
     source: "",
   ),

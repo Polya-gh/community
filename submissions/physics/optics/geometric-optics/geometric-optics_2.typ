@@ -1,43 +1,19 @@
-#let n = 1
-#let subject = "mathematics"
-#let topic = "vector analysis"
-#let subtopic = "Vector Analysis"
+#let n = 2
+#let subject = "physics"
+#let topic = "optics"
+#let subtopic = "Geometric Optics"
 #let contributors = ("brsl", "davidr", "beta_tester", "b_udd_ha")
 
 #let problems = (
   (
-    title: "Magnitude",
+    title: "Refractive index",
     difficulty: "easy",
     statement: [
-      Find the magnitude of the vector $bold(v) = (3, -4, 0)$.
+      The speed of light in a medium is $2 times 10^8$ m/s. Find the refractive index. ($c = 3 times 10^8$ m/s.)
     ],
-    answer: $5$,
+    answer: $1.5$,
     solution: [
-      $|bold(v)| = sqrt(3^2 + (-4)^2 + 0^2) = sqrt(9 + 16) = 5$
-    ],
-    source: "",
-  ),
-  (
-    title: "Dot product",
-    difficulty: "easy",
-    statement: [
-      Compute $bold(a) dot bold(b)$ where $bold(a) = (2, -1, 3)$ and $bold(b) = (4, 0, -2)$.
-    ],
-    answer: $2$,
-    solution: [
-      $bold(a) dot bold(b) = 2(4) + (-1)(0) + 3(-2) = 8 + 0 - 6 = 2$
-    ],
-    source: "",
-  ),
-  (
-    title: "Projection",
-    difficulty: "medium",
-    statement: [
-      Find the scalar projection of $bold(a) = (3, 4)$ onto $bold(b) = (1, 0)$.
-    ],
-    answer: $3$,
-    solution: [
-      $"proj" = (bold(a) dot bold(b))/(|bold(b)|) = (3 dot 1 + 4 dot 0)/(1) = 3$
+      $n = (c)/(v) = (3 times 10^8)/(2 times 10^8) = 1.5$.
     ],
     source: "",
   ),

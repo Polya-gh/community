@@ -18,18 +18,6 @@
     source: "",
   ),
   (
-    title: "Corresponding angles",
-    difficulty: "easy",
-    statement: [
-      Two parallel lines are cut by a transversal. A corresponding angle is $110°$. What is the corresponding angle on the other line?
-    ],
-    answer: $110°$,
-    solution: [
-      Corresponding angles are equal when lines are parallel. The angle is also $110°$.
-    ],
-    source: "",
-  ),
-  (
     title: "Midpoint theorem",
     difficulty: "medium",
     statement: [
@@ -50,31 +38,6 @@
     answer: $144 pi$,
     solution: [
       $S A = 4 pi r^2 = 4 pi dot 36 = 144 pi$ cm².
-    ],
-    source: "",
-  ),
-  (
-    title: "Inscribed angle",
-    difficulty: "medium",
-    statement: [
-      An inscribed angle in a circle subtends an arc of $160°$. Find the inscribed angle.
-    ],
-    answer: $80°$,
-    solution: [
-      The inscribed angle is half the intercepted arc. \
-      Inscribed angle $= (160°)/(2) = 80°$.
-    ],
-    source: "",
-  ),
-  (
-    title: "Regular polygon",
-    difficulty: "easy",
-    statement: [
-      Find the measure of each interior angle of a regular octagon.
-    ],
-    answer: $135°$,
-    solution: [
-      Interior angle $= ((8-2) dot 180°)/(8) = (1080°)/(8) = 135°$.
     ],
     source: "",
   ),
@@ -113,18 +76,6 @@
     answer: $40 pi$,
     solution: [
       $A = pi R^2 - pi r^2 = pi(49 - 9) = 40 pi$ cm².
-    ],
-    source: "",
-  ),
-  (
-    title: "Inequality",
-    difficulty: "easy",
-    statement: [
-      Can a triangle have sides of length $3$, $5$, and $9$? Explain.
-    ],
-    answer: $"No"$,
-    solution: [
-      Check: $3 + 5 = 8 < 9$. The triangle inequality requires the sum of any two sides to exceed the third. Since $3 + 5 < 9$, no such triangle exists.
     ],
     source: "",
   ),

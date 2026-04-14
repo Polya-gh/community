@@ -19,57 +19,6 @@
     source: "",
   ),
   (
-    title: "Centroid",
-    difficulty: "easy",
-    statement: [
-      Find the centroid of the triangle with vertices $A(0, 0)$, $B(6, 0)$, $C(3, 9)$.
-    ],
-    answer: $(3, 3)$,
-    solution: [
-      Centroid $= ((0+6+3)/(3), (0+0+9)/(3)) = (3, 3)$.
-    ],
-    source: "",
-  ),
-  (
-    title: "Focus",
-    difficulty: "medium",
-    statement: [
-      The parabola $x^2 = 8y$. Find its focus.
-    ],
-    answer: $(0, 2)$,
-    solution: [
-      $x^2 = 4p y$ with $4p = 8 => p = 2$. \
-      Focus: $(0, p) = (0, 2)$.
-    ],
-    source: "",
-  ),
-  (
-    title: "Lines angle",
-    difficulty: "medium",
-    statement: [
-      Find the acute angle between the lines $y = x$ and $y = 2x$.
-    ],
-    answer: $approx 18.43°$,
-    solution: [
-      $tan theta = |(m_2 - m_1)/(1 + m_1 m_2)| = |(2 - 1)/(1 + 2)| = (1)/(3)$. \
-      $theta = arctan((1)/(3)) approx 18.43°$.
-    ],
-    source: "",
-  ),
-  (
-    title: "Collinear",
-    difficulty: "easy",
-    statement: [
-      Are the points $A(1, 2)$, $B(3, 4)$, and $C(5, 6)$ collinear?
-    ],
-    answer: $"Yes"$,
-    solution: [
-      Slope $A B = (4-2)/(3-1) = 1$. Slope $B C = (6-4)/(5-3) = 1$. \
-      Equal slopes and a shared point imply collinearity.
-    ],
-    source: "",
-  ),
-  (
     title: "Circle centre",
     difficulty: "medium",
     statement: [
@@ -105,30 +54,6 @@
     answer: $y = (3)/(2) x$,
     solution: [
       For $(x^2)/(a^2) - (y^2)/(b^2) = 1$, asymptotes are $y = plus.minus (b)/(a) x = plus.minus (3)/(2) x$.
-    ],
-    source: "",
-  ),
-  (
-    title: "x-intercept",
-    difficulty: "easy",
-    statement: [
-      Find the $x$-intercept of $3x - 4y = 12$.
-    ],
-    answer: $(4, 0)$,
-    solution: [
-      Set $y = 0$: $3x = 12 => x = 4$. $x$-intercept: $(4, 0)$.
-    ],
-    source: "",
-  ),
-  (
-    title: "Reflection",
-    difficulty: "easy",
-    statement: [
-      A point $P(3, -5)$ is reflected over the $y$-axis. What are the coordinates of its image?
-    ],
-    answer: $(-3, -5)$,
-    solution: [
-      Reflecting over the $y$-axis negates the $x$-coordinate: $P' = (-3, -5)$.
     ],
     source: "",
   ),
