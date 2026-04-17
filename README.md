@@ -20,7 +20,7 @@ This is where the problem library is built. Anyone can contribute problems, sugg
 
 There are two ways to submit a problem:
 
-**Via the web** — visit [polya.live/contribute](https://polya.live/community/contribute), fill out the form, and submit. A pull request is opened automatically, no git knowledge required. Available from Scholar and above.   
+**Via the web** — visit [polya.live/contribute](https://polya.live/community/contribute), fill out the form, and submit. A pull request is opened automatically, no git knowledge required. Coming soon.
 
 **Via template** — download a template from `/templates`, fill it out locally in your editor, and open a pull request against the [submissions repository](https://github.com/polya/submissions).
 
